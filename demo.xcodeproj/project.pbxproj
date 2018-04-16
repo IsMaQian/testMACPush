@@ -15,6 +15,9 @@
 		2BFFD99C205FD1F90069E061 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFFD99B205FD1F90069E061 /* main.m */; };
 		2BFFD9A6205FD1F90069E061 /* demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFFD9A5205FD1F90069E061 /* demoTests.m */; };
 		2BFFD9B1205FD1F90069E061 /* demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFFD9B0205FD1F90069E061 /* demoUITests.m */; };
+		2BFFD9C0205FD2720069E061 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFFD9BF205FD2720069E061 /* BViewController.m */; };
+		2BFFD9C3205FD3BF0069E061 /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFFD9C2205FD3BF0069E061 /* Helper.m */; };
+		2BFFD9C5205FDD7A0069E061 /* 未标题-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2BFFD9C4205FDD7A0069E061 /* 未标题-1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		2BFFD9AC205FD1F90069E061 /* demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BFFD9B0205FD1F90069E061 /* demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demoUITests.m; sourceTree = "<group>"; };
 		2BFFD9B2205FD1F90069E061 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BFFD9BE205FD2720069E061 /* BViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		2BFFD9BF205FD2720069E061 /* BViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
+		2BFFD9C1205FD3BF0069E061 /* Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		2BFFD9C2205FD3BF0069E061 /* Helper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+		2BFFD9C4205FDD7A0069E061 /* 未标题-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "未标题-1.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +113,11 @@
 				2BFFD98D205FD1F90069E061 /* AppDelegate.m */,
 				2BFFD98F205FD1F90069E061 /* ViewController.h */,
 				2BFFD990205FD1F90069E061 /* ViewController.m */,
+				2BFFD9BE205FD2720069E061 /* BViewController.h */,
+				2BFFD9BF205FD2720069E061 /* BViewController.m */,
+				2BFFD9C1205FD3BF0069E061 /* Helper.h */,
+				2BFFD9C2205FD3BF0069E061 /* Helper.m */,
+				2BFFD9C6205FDD8B0069E061 /* New Group */,
 				2BFFD992205FD1F90069E061 /* Main.storyboard */,
 				2BFFD995205FD1F90069E061 /* Assets.xcassets */,
 				2BFFD997205FD1F90069E061 /* LaunchScreen.storyboard */,
@@ -130,6 +143,14 @@
 				2BFFD9B2205FD1F90069E061 /* Info.plist */,
 			);
 			path = demoUITests;
+			sourceTree = "<group>";
+		};
+		2BFFD9C6205FDD8B0069E061 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				2BFFD9C4205FDD7A0069E061 /* 未标题-1.jpg */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +262,7 @@
 				2BFFD999205FD1F90069E061 /* LaunchScreen.storyboard in Resources */,
 				2BFFD996205FD1F90069E061 /* Assets.xcassets in Resources */,
 				2BFFD994205FD1F90069E061 /* Main.storyboard in Resources */,
+				2BFFD9C5205FDD7A0069E061 /* 未标题-1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,8 +288,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BFFD991205FD1F90069E061 /* ViewController.m in Sources */,
+				2BFFD9C0205FD2720069E061 /* BViewController.m in Sources */,
 				2BFFD99C205FD1F90069E061 /* main.m in Sources */,
 				2BFFD98E205FD1F90069E061 /* AppDelegate.m in Sources */,
+				2BFFD9C3205FD3BF0069E061 /* Helper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
